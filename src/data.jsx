@@ -23,21 +23,30 @@ const menu = [
     {
       id: 3,
       title: 'country delight',
+      category: 'breakfast',
+      price: 20.99,
+      img: './src/images/item-4.jpeg',
       desc: `Shabby chic keffiyeh neutra snackwave pork belly shoreditch. Prism austin mlkshk truffaut, `,
     },
     {
       id: 4,
       title: 'egg attack',
+      category: 'lunch',
+      price: 22.99,
       desc: `franzen vegan pabst bicycle rights kickstarter pinterest meditation farm-to-table 90's pop-up `,
     },
     {
       id: 5,
       title: 'oreo dream',
+      category: 'shakes',
+      price: 18.99,
       desc: `Portland chicharrones ethical edison bulb, palo santo craft beer chia heirloom iPhone everyday`,
     },
     {
       id: 6,
       title: 'bacon overflow',
+      category: 'breakfast',
+      price: 8.99,
       desc: `carry jianbing normcore freegan. Viral single-origin coffee live-edge, pork belly cloud bread iceland put a bird `,
     },
     {
@@ -56,11 +65,12 @@ const menu = [
     },
     {
       id: 9,
-      title: 'Staeke',
+      title: 'Steake',
       category: 'lunch',
-      price: 25.99,
+      price: 45.99,
       desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
     },
+    
   ];
   export default menu;
   
